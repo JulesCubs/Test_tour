@@ -1,0 +1,145 @@
+body {
+    background-color: #fff;
+}
+
+.text-tour {
+    color: black !important;
+}
+
+#header__nav--logo img {
+    width: 80px;
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel__img img {
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0 ,0, .5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height:80%;
+}
+
+#carousel .overlay h1 {
+    color: #ff0;
+}
+
+#chooseWin {
+    height: auto;
+}
+
+.btn-outline-tour {
+    border-color: #ff0;
+    color: #ff0;
+}
+
+.btn-outline-tour:hover {
+    border-color: #949405;
+    color: white;
+}
+
+.btn-tour {
+    background-color: #ff0;
+    color: #181617;
+}
+
+.btn-tour:hover {
+    background-color: #949405;
+    color: white;
+}
+
+.card {
+    height: 500px;
+}
+
+.card-img-top {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.badge-jumbo {
+    background-color: yellow;
+    color: black;
+}
+
+.badge-inneos {
+    background-color: darkred;
+    color: white;
+}
+
+.badge-cofidis {
+    background-color: red;
+    color: white;
+}
+
+.badge-ag2r {
+    background-color: cadetblue;
+    color: black;
+}
+
+.badge-arkea {
+    background-color: red;
+    color: black;
+}
+
+.badge-ef {
+    background-color: fuchsia;
+    color: white;
+}
+
+.badge-uae {
+    background-color: red;
+    color: green;
+}
+
+.badge-scott {
+    background-color: black;
+    color: yellow;
+}
+
+.badge-astana{
+    background-color: cyan;
+    color: yellow;
+}
+
+.badge-bahrein {
+    background-color: orange;
+    color: red;
+}
+
+#place-time {
+    background-color: #ff0;
+    color:  #181617;
+}
+
+#place-time img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#footer {
+    background-color: #181617;
+}
+
+#footer a {
+    text-transform: uppercase;
+    color: #ff0;
+}

@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Tour de france 2020 Top 10</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="110">
+    <!---- Header ------>
+    <header id="header" class="sticky-top">
+      <nav id="header__nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="header__nav--logo" class="navbar-brand" href="#">
+          <img src="https://www.letour.fr/android-chrome-192x192.png" alt="Logo Tour de France"> Test Page
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#carousel">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#toprun">Top 10</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#place-time">Conoce mas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-tour" href="#chooseWin"><b>Quien ganará?</b></a>
+            </li>
+          </ul>
+          <!--- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> --->
+        </div>
+      </nav>
+    </header>
+    <!------/Header------->
+
+    <!------Main------->
+    <main>
+      <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div id="carousel__img" class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://www.bvjhostelparis.com/wp-content/uploads/2016/06/Hostel-in-Paris-Arrvival-Tour-de-France.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://skoda-welovecycling.s3.amazonaws.com/6/2017/06/profimedia-0295025648-cover.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.bugeyvelo.com/wp-content/uploads/sites/2/2019/07/pano-culoz-001.jpg" alt="Third slide">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-0 offset-md-6 text-center text-md-left">
+                  <h1 class="text-uppercase">Tour de France 2020</h1>
+                  <p class="d-none d-md-block">Esta es una página de prueba con tematica de una de las grandes vueltas de ciclismo.</p>
+                  <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio blanditiis commodi itaque eveniet amet totam eligendi cumque illo animi!</p>
+                  <a href="#chooseWin" class="btn btn-outline-tour">Quiero elegir al ganador</a>
+                  <button type="button" class="btn btn-tour" data-toggle="modal" data-target="#chooseModal">Entrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--- 
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+          --->
+      </div>
+    </main>
+    <!------/Main------->
+
+    <!------Top-tier------>
+    <section id="toprun" class="mt-4 mb-4 py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="col text-center text-uppercase pb-4">
+              <small>Este es el top 10 de esta semana en el tour</small>
+              <h5>Competidores</h5>
+            </div>
+            
+              <div class="row">
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://m.eltiempo.com/files/image_640_428/uploads/2020/08/13/5f3574a46a3b9.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Primoz Roglic</h5>
+                      <div class="badges">
+                        <span class="badge badge-jumbo">Team Jumbo Visma</span>
+                      </div>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://i2s4s4h3.stackpathcdn.com/wp-content/uploads/2019/07/letour20_bernal_victoria.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Egan Bernal</h5>
+                      <div class="badges">
+                        <span class="badge badge-inneos">Team Inneos</span>
+                      </div>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/09/27/15065230805929.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Guillaume Martin</h5>
+                      <div class="badges">
+                        <span class="badge badge-cofidis">Team Cofidis</span>
+                      </div>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://i2s4s4h3.stackpathcdn.com/wp-content/uploads/2017/07/Bardet_Tour-Francia_2017_12.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Romain Bardet</h5>
+                      <div class="badges">
+                        <span class="badge badge-ag2r">Team AG2R La Mondiale</span>
+                      </div>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/06/10/15917697604857.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Nairo Quintana</h5>
+                      <div class="badges">
+                        <span class="badge badge-arkea">Team Arkea Samsic</span>
+                      </div>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://www.ef.com.co/blog/wp-content/uploads/sites/25/2018/07/EF_Talks_Pro_Cyclist_Rigoberto_Uran_blog-hero-low.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Rigoberto Urán</h5>
+                      <div class="badges">
+                        <span class="badge badge-ef">Team Education First</span>
+                      </div>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/09/02/15674081197813.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Tadej Pogacar</h5>
+                      <div class="badges">
+                        <span class="badge badge-uae">Team UAE Emirates</span>
+                      </div>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://noticiclismo.com/wp-content/uploads/2020/09/Nans-Peters-1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Adam Yates</h5>
+                      <div class="badges">
+                        <span class="badge badge-scott">Team Mitchelton Scott</span>
+                      </div>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://m.eltiempo.com/files/image_640_428/uploads/2019/05/09/5cd4681fea99b.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Miguel A. Lopez</h5>
+                      <div class="badges">
+                        <span class="badge badge-astana">Team Astana PRO</span>
+                      </div>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqj5ZagnSqqfsvs7yAo7quouwIo0mVkwYPtg&usqp=CAU" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Mikel Landa</h5>
+                      <div class="badges">
+                        <span class="badge badge-bahrein">Team Bahrein Mclaren</span>
+                      </div>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------/Top-tier------>
+
+    <!------Lugar y Fecha------>
+
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-3 py-5">
+            <h3>Francia, Agosto 20 de 2020 hasta Septiembre 20 de 2020</h3>
+            <p class="align-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi officiis blanditiis repudiandae atque est nostrum ab amet, vitae architecto asperiores, repellat molestias. Quis corrupti, illo quo veniam delectus cum quod?</p>
+            <p class="align-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi officiis blanditiis repudiandae atque est nostrum ab amet, vitae architecto asperiores, repellat molestias. Quis corrupti, illo quo veniam delectus cum quod?</p>
+            <a href="https://www.letour.fr/es/" class="btn btn-outline-dark mx-5">Conoce mas del evento</a>
+          </div>
+          <div class="col-12 col-md-9 px-0">
+            <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/06/25/15930937298584.jpg" alt="paisaje francia">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------/Lugar y Fecha------>
+
+    <!------Formularios------>
+    <section id="chooseWin">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>¿Quien Ganara la carrera?</small>
+            <h3 class="my-3">opina ya!!!!</h3>
+            <p>Trata de adivinar quien ganara la carrera</p>
+            <h6 class="mb-4 text-capitalize">Escoge uno y pulsa: Vota ya!!!</h6>
+            <div class="row">
+              <div class="col col-sm-12 col-md-3 mb-3 text-left offset-1 mx-5">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label m-1" for="inlineRadio1">Primoz Roglic</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label m-1" for="inlineRadio2">Egán Bernal</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                  <label class="form-check-label m-1" for="inlineRadio1">Guillaume Martin</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                  <label class="form-check-label m-1" for="inlineRadio2">Romain Bardet</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                  <label class="form-check-label m-1" for="inlineRadio1">Nairo Quintana</label>
+                </div>
+              </div>
+              <div class="col col-sm-12 col-md-3 mb-3 text-left offset-1 mx-5">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                  <label class="form-check-label m-1" for="inlineRadio2">Rigoberto  Urán</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option7">
+                  <label class="form-check-label m-1" for="inlineRadio1">Tadej Pogacar</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio8" value="option8">
+                  <label class="form-check-label m-1" for="inlineRadio2">Adam Yates</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio9" value="option9">
+                  <label class="form-check-label m-1" for="inlineRadio1">Miguel Angel Lopez</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option10">
+                  <label class="form-check-label m-1" for="inlineRadio2">Mikel Landa</label>
+                </div>
+              </div>
+              <div class="col col-sm-12 col-md-3 text-left offset-1 mx-5 mx-sm-4">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio11" value="option11">
+                  <label class="form-check-label m-1" for="inlineRadio1"><abbr data-toggle="tooltip" data-placement="top" title="https://www.letour.fr/es/clasificaciones">Otro?</abbr></label>
+
+                </div>
+                <input class="form-control form-control-sm" type="text" placeholder="cual?">
+                <button type="button" data-toggle="modal" data-target="#chooseModal" class="btn btn-tour my-3">Vota ya!!!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------/formularios------->
+
+    <!---- Footer ------>
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="#">Preguntas frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Terminos y Condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Contáctanos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Prensa</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Acerca de</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!------/Footer------->
+
+    <!------Modal------->
+
+    <div class="modal fade" id="chooseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalCenterTitle">Gracias por su eleccion!!!</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Mira los resultados el día 20 de septiembre en la ultima etapa</p>
+          </div>
+          <div class="alert alert-dark" role="alert">
+            Sigue muy de cerca esta apasionante carrera
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-tour" data-dismiss="modal">OK!!!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------/Modal------->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+  </body>
+
+</html>
